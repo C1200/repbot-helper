@@ -1,0 +1,8 @@
+{
+    "command": {
+        "prefix": "<command",
+        "description": "Command starter code.",
+        "scope": "javascript",
+        "body": "module.exports = {\n\tcommand: \"$TM_FILENAME_BASE\",\n\tdescription: \"\",\n\taliases: [],\n\tusage: \"<prefix><command>\",\n\treact: \"\",\n\trun: (msg, args, models, reload) => {\n\t\treturn true;\n\t}\n}"
+    }
+}
